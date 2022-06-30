@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+h1 {
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+}
+
+.global-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding-top: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 30px;
+}
+
+.login-form {
+    width: 380px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 10px !important;
+}
+
+.card-title {
+    font-size: 60px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    background: #f7f5ff;
+    border: 2px solid #f7f5ff;;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border: none;
+    background: #ffffff;
+    margin: 0;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder{
+    color: #000000;
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 50%;
+    height: 50px;
+    font-size: 14px;
+    transform: translateY(10px);
+    border-radius: 8px !important;
+}
+
+.forgot-password {
+    padding: 60px 0px 0px;
+    text-align: center;
+}
+
+.signup {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* ==-=============================== BREAKPOINTS =================================  */
+
+
+@media screen and (max-width: 480px) {
+    .mini-img {
+        width: 250px;
+        padding-top: 45px;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        background: #f7f5ff;
+        border: 2px solid #f7f5ff;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+}
